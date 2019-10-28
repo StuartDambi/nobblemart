@@ -1,7 +1,8 @@
 import React from 'react'
 import SideMenu from '../Partials/SideMenu'
 import DailyDeals from './DailyDeals'
-import TrendingItems from './TrendingItems'
+// import TrendingItems from './TrendingItems'
+import NewItems from './NewItems'
 
 class Home extends React.Component {
     render() {
@@ -36,9 +37,10 @@ class Home extends React.Component {
                                 {/* Daily Deals */}
                                 <DailyDeals />
 
-                                <div className="row">
-                                    <TrendingItems />
-                                </div>
+                                
+                                {/* <TrendingItems /> */}
+
+                                <NewItems />
                             </div>
 
                             

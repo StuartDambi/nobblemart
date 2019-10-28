@@ -71,8 +71,8 @@ class TrendingItems extends React.Component {
                                                     <div class="left-block">
                                                         <div class="product-image-container second_img">
                                                             <a href="product.html" target="_self" title="Chicken swinesha">
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/2.jpg'} class="img-1 img-responsive" alt="image" />
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/11.jpg'} class="img-2 img-responsive" alt="image" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/2.jpg'} class="img-1 img-responsive" alt="noble" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/11.jpg'} class="img-2 img-responsive" alt="noble" />
                                                             </a>
                                                         </div>
                                                         <div class="box-label"> <span class="label-product label-sale"> -16% </span></div>
@@ -149,8 +149,8 @@ class TrendingItems extends React.Component {
                                                     <div class="left-block">
                                                         <div class="product-image-container second_img">
                                                             <a href="product.html" target="_self" title="Sausage cowbee">
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/4.jpg'} class="img-1 img-responsive" alt="image" />
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/9.jpg'} class="img-2 img-responsive" alt="image" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/4.jpg'} class="img-1 img-responsive" alt="noble" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/9.jpg'} class="img-2 img-responsive" alt="noble" />
                                                             </a>
                                                         </div>
                                                         
@@ -227,8 +227,8 @@ class TrendingItems extends React.Component {
                                                     <div class="left-block">
                                                         <div class="product-image-container second_img">
                                                             <a href="product.html" target="_self" title="Balltip nullaelit">
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/6.jpg'} class="img-1 img-responsive" alt="image" />
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/7.jpg'} class="img-2 img-responsive" alt="image" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/6.jpg'} class="img-1 img-responsive" alt="noble" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/7.jpg'} class="img-2 img-responsive" alt="noble" />
                                                             </a>
                                                         </div>
                                                         <div class="box-label"> <span class="label-product label-new"> New </span></div>
@@ -266,8 +266,8 @@ class TrendingItems extends React.Component {
                                                     <div class="left-block">
                                                         <div class="product-image-container second_img">
                                                             <a href="product.html" target="_self" title="Ribeye hamhock">
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/7.jpg'} class="img-1 img-responsive" alt="image" />
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/6.jpg'} class="img-2 img-responsive" alt="image" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/7.jpg'} class="img-1 img-responsive" alt="noble" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/6.jpg'} class="img-2 img-responsive" alt="noble" />
                                                             </a>
                                                         </div>
                                                         <div class="box-label"> <span class="label-product label-sale"> -7% </span></div>
@@ -305,8 +305,8 @@ class TrendingItems extends React.Component {
                                                     <div class="left-block">
                                                         <div class="product-image-container second_img">
                                                             <a href="product.html" target="_self" title="Wamboudin ribeye">
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/8.jpg'} class="img-1 img-responsive" alt="image" />
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/5.jpg'} class="img-2 img-responsive" alt="image" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/8.jpg'} class="img-1 img-responsive" alt="noble" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/5.jpg'} class="img-2 img-responsive" alt="noble" />
                                                             </a>
                                                         </div>
                                                         
@@ -345,8 +345,8 @@ class TrendingItems extends React.Component {
                                                     <div class="left-block">
                                                         <div class="product-image-container second_img">
                                                             <a href="product.html" target="_self" title="Lamboudin ribeye">
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/9.jpg'} class="img-1 img-responsive" alt="image" />
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/4.jpg'} class="img-2 img-responsive" alt="image" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/9.jpg'} class="img-1 img-responsive" alt="noble" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/4.jpg'} class="img-2 img-responsive" alt="noble" />
                                                             </a>
                                                         </div>
                                                         
@@ -381,8 +381,8 @@ class TrendingItems extends React.Component {
                                                     <div class="left-block">
                                                         <div class="product-image-container second_img">
                                                             <a href="product.html" target="_self" title="Ribeye hamhock">
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/10.jpg'} class="img-1 img-responsive" alt="image" />
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/3.jpg'} class="img-2 img-responsive" alt="image" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/10.jpg'} class="img-1 img-responsive" alt="noble" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/3.jpg'} class="img-2 img-responsive" alt="noble" />
                                                             </a>
                                                         </div>
                                                         <div class="box-label"> <span class="label-product label-sale"> -7% </span></div>
@@ -459,8 +459,8 @@ class TrendingItems extends React.Component {
                                                     <div class="left-block">
                                                         <div class="product-image-container second_img">
                                                             <a href="product.html" target="_self" title="Balltip nullaelit">
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/12.jpg'} class="img-1 img-responsive" alt="image" />
-                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/1.jpg'} class="img-2 img-responsive" alt="image" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/12.jpg'} class="img-1 img-responsive" alt="nbole" />
+                                                                <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/270/1.jpg'} class="img-2 img-responsive" alt="nbole" />
                                                             </a>
                                                         </div>
                                                         <div class="box-label"> <span class="label-product label-new"> New </span></div>
