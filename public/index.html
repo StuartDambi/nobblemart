@@ -50,6 +50,9 @@
 <script type="text/javascript" src="%PUBLIC_URL%/js/jquery-ui/jquery-ui.min.js"></script>
 <script type="text/javascript" src="%PUBLIC_URL%/js/modernizr/modernizr-2.6.2.min.js"></script>
 <script type="text/javascript" src="%PUBLIC_URL%/js/minicolors/jquery.miniColors.min.js"></script>
+<script type="text/javascript" src="%PUBLIC_URL%/js/datetimepicker/moment.js"></script>
+	<script type="text/javascript" src="%PUBLIC_URL%/js/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+	<script type="text/javascript" src="%PUBLIC_URL%/js/jquery-ui/jquery-ui.min.js"></script>
 
 <!-- Theme files
 ============================================ -->
@@ -61,5 +64,16 @@
 <script type="text/javascript" src="%PUBLIC_URL%/js/themejs/toppanel.js"></script>
 <script type="text/javascript" src="%PUBLIC_URL%/js/themejs/so_megamenu.js"></script>
 <script type="text/javascript" src="%PUBLIC_URL%/js/themejs/addtocart.js"></script> 
+
+<script type="text/javascript">
+	// Check if Cookie exists
+		if($.cookie('display')){
+			view = $.cookie('display');
+		}else{
+			view = 'grid';
+		}
+		if(view) display(view);
+  //-->
+</script> 
   </body>
 </html>

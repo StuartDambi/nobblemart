@@ -1,4 +1,6 @@
 import React from 'react'
+import Category from '../Category/Category'
+// import { Link } from 'react-router-dom'
 
 class Header extends React.Component {
     render() {
@@ -128,7 +130,7 @@ class Header extends React.Component {
 
                                                                 <li className="with-sub-menu hover">
                                                                     <p className="close-menu"></p>
-                                                                    <a href="!#" className="clearfix">
+                                                                    <a href={Category} className="clearfix">
                                                                         <strong>Categories</strong>
                                                                         <b className="caret"></b>
                                                                     </a>

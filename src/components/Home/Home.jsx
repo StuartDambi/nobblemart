@@ -4,6 +4,7 @@ import DailyDeals from './DailyDeals'
 // import TrendingItems from './TrendingItems'
 import NewItems from './NewItems'
 
+
 class Home extends React.Component {
     render() {
         return (
