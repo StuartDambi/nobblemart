@@ -19,17 +19,17 @@ export default function Routes() {
         <HashRouter>
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route path="/category" component={Category} />
-                <Route path="/account" component={Account} />
-                <Route path="/cart" component={Cart} />
-                <Route path="/checkout" component={Checkout} />
-                <Route path="/compare" component={Compare} />
-                <Route path="/giftvoucher" component={GiftVoucher} />
-                <Route path="/returns" component={PorductReturns} />
-                <Route path="/orders" component={Orders} />
-                <Route path="/wishlist" component={Wishlist} />
-                <Route path="/login" component={Login} />
-                <Route path="/register" component={Register} />
+                <Route exact path="/category" component={Category} />
+                <Route exact path="/account" component={Account} />
+                <Route exact path="/cart" component={Cart} />
+                <Route exact path="/checkout" component={Checkout} />
+                <Route exact path="/compare" component={Compare} />
+                <Route exact path="/giftvoucher" component={GiftVoucher} />
+                <Route exact path="/returns" component={PorductReturns} />
+                <Route exact path="/orders" component={Orders} />
+                <Route exact path="/wishlist" component={Wishlist} />
+                <Route exact path="/login" component={Login} />
+                <Route exact path="/register" component={Register} />
             </Switch>
         </HashRouter>
     )
