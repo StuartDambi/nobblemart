@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 class Login extends React.Component {
     render() {
@@ -6,9 +7,9 @@ class Login extends React.Component {
             <div className="common-home">
                 <div className="main-container container">
                     <ul className="breadcrumb">
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
-                        <li><a href="#">Account</a></li>
-                        <li><a href="#">Login</a></li>
+                        <li><NavLink to="/"><i class="fa fa-home"></i></NavLink></li>
+                        <li><NavLink to="/account">Account</NavLink></li>
+                        <li><NavLink to="/login">Login</NavLink></li>
                     </ul>
 
                     <div className="row">
@@ -23,7 +24,7 @@ class Login extends React.Component {
                                                 <p>By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
                                             </div>
                                             <div className="bottom-form">
-                                                <a href="#" class="btn btn-default pull-right">Continue</a>
+                                                <a href="!#" class="btn btn-default pull-right">Continue</a>
                                             </div>
                                         </div>
 
@@ -42,7 +43,7 @@ class Login extends React.Component {
                                                     </div>
                                                 </div>
                                                 <div class="bottom-form">
-                                                    <a href="#" class="forgot">Forgotten Password</a>
+                                                    <a href="!#" class="forgot">Forgotten Password</a>
                                                     <input type="submit" value="Login" class="btn btn-default pull-right" />
                                                 </div>
                                             </div>

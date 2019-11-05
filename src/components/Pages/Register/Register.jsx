@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 class Register extends React.Component {
     render() {
@@ -6,15 +7,15 @@ class Register extends React.Component {
             <div className="common-home">
                 <div className="main-container container">
                     <ul className="breadcrumb">
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
-                        <li><a href="#">Account</a></li>
-                        <li><a href="#">Register</a></li>
+                        <li><NavLink to="/"><i class="fa fa-home"></i></NavLink></li>
+                        <li><NavLink to="/account">Account</NavLink></li>
+                        <li><NavLink href="/register">Register</NavLink></li>
                     </ul>
 
                     <div className="row">
                         <div id="content" className="col-sm-12">
                             <h2 className="title">Create Account</h2>
-                            <p>If you already have an account with us, please login at the <a href="#">login page</a>.</p>
+                            <p>If you already have an account with us, please login at the <NavLink to="/login">login page</NavLink>.</p>
 
                             <form action="#" method="post" enctype="multipart/form-data" class="form-horizontal account-register clearfix">
                                 <fieldset id="account">
@@ -151,7 +152,7 @@ class Register extends React.Component {
                                     </div>
                                 </fieldset>
                                 <div class="buttons">
-                                    <div class="pull-right">I have read and agree to the <a href="#" class="agree"><b>Pricing Tables</b></a>
+                                    <div class="pull-right">I have read and agree to the <a href="!#" class="agree"><b>Pricing Tables</b></a>
                                         <input class="box-checkbox" type="checkbox" name="agree" value="1" /> &nbsp;
                                         <input type="submit" value="Continue" class="btn btn-primary" />
                                     </div>

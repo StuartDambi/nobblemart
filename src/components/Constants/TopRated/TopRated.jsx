@@ -15,7 +15,7 @@ export default function TopRated() {
                             <div class="product-layout item-inner style1 ">
                                 <div class="item-image">
                                     <div class="item-img-info">
-                                        <a href="#" target="_self" title="Mandouille short ">
+                                        <a href="!#" target="_self" title="Mandouille short ">
                                             <img src={process.env.PUBLIC_URL+'image/catalog/demo/product/80/8.jpg'} alt="Mandouille short" />
                                             </a>
                                     </div>
@@ -23,7 +23,7 @@ export default function TopRated() {
                                 </div>
                                 <div class="item-info">
                                     <div class="item-title">
-                                        <a href="#" target="_self" title="Mandouille short">Mandouille short </a>
+                                        <a href="!#" target="_self" title="Mandouille short">Mandouille short </a>
                                     </div>
                                     <div class="rating">
                                         <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i></span>

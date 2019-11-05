@@ -41,13 +41,13 @@ class Home extends React.Component {
                                         <div class="module sohomepage-slider ">
                                             <div class="yt-content-slider"  data-rtl="yes" data-autoplay="no" data-autoheight="no" data-delay="4" data-speed="0.6" data-margin="0" data-items_column0="1" data-items_column1="1" data-items_column2="1"  data-items_column3="1" data-items_column4="1" data-arrows="no" data-pagination="yes" data-lazyload="yes" data-loop="no" data-hoverpause="yes">
                                                 <div class="yt-content-slide">
-                                                    <a href="#"><img src="image/catalog/slideshow/home1/slider-1.jpg" alt="slider1" class="img-responsive" /></a>
+                                                    <a href="!#"><img src="image/catalog/slideshow/home1/slider-1.jpg" alt="slider1" class="img-responsive" /></a>
                                                 </div>
                                                 <div class="yt-content-slide">
-                                                    <a href="#"><img src="image/catalog/slideshow/home1/slider-2.jpg" alt="slider2" class="img-responsive" /></a>
+                                                    <a href="!#"><img src="image/catalog/slideshow/home1/slider-2.jpg" alt="slider2" class="img-responsive" /></a>
                                                 </div>
                                                 <div class="yt-content-slide">
-                                                    <a href="#"><img src="image/catalog/slideshow/home1/slider-3.jpg" alt="slider3" class="img-responsive" /></a>
+                                                    <a href="!#"><img src="image/catalog/slideshow/home1/slider-3.jpg" alt="slider3" class="img-responsive" /></a>
                                                 </div>
                                             </div>
                                             
@@ -61,10 +61,10 @@ class Home extends React.Component {
                                         <div class="modcontent clearfix">
                                             <div class="banners banners1"> 
                                                 <div class="b-img">
-                                                        <a href="#"><img src="image/catalog/banners/banner1.jpg" alt="banner1" /></a>
+                                                        <a href="!#"><img src="image/catalog/banners/banner1.jpg" alt="banner1" /></a>
                                                 </div>
                                                 <div class="b-img2">
-                                                        <a href="#"><img src="image/catalog/banners/banner2.jpg" alt="banner2" /></a>
+                                                        <a href="!#"><img src="image/catalog/banners/banner2.jpg" alt="banner2" /></a>
                                                 </div>    
                                                 
                                                 
@@ -77,7 +77,7 @@ class Home extends React.Component {
 
                                 <div class="banners banners3">
                                     <div class="banner">
-                                        <a href="#">
+                                        <a href="!#">
                                             <img src="image/catalog/banners/banner3.jpg" alt="noble" />
                                         </a>
                                     </div>
@@ -87,7 +87,7 @@ class Home extends React.Component {
 
                                 <div class="banners banners6">
                                     <div class="banner">
-                                        <a href="#">
+                                        <a href="!#">
                                             <img src="image/catalog/banners/banner7.jpg" alt="noble" />
                                         </a>
                                     </div>

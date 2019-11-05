@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -71,12 +72,12 @@ function Footer() {
                                         <h3 class="modtitle">Information</h3>
                                         <div class="modcontent">
                                             <ul class="menu">
-                                                <li><a href="#">About Us</a></li>
-                                                <li><a href="#">FAQ</a></li>
-                                                <li><a href="#">Warranty And Services</a></li>
-                                                <li><a href="#">Support 24/7 page</a></li>
-                                                <li><a href="#">Product Registration</a></li>
-                                                <li><a href="#">Product Support</a></li>
+                                                <li><a href="!#">About Us</a></li>
+                                                <li><a href="!#">FAQ</a></li>
+                                                <li><a href="!#">Warranty And Services</a></li>
+                                                <li><a href="!#">Support 24/7 page</a></li>
+                                                <li><a href="!#">Product Registration</a></li>
+                                                <li><a href="!#">Product Support</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -90,11 +91,11 @@ function Footer() {
                                         <h3 class="modtitle">Services</h3>
                                         <div class="modcontent">
                                             <ul class="menu">
-                                                <li><a href="#">Contact Us</a></li>
-                                                <li><a href="#">Returns</a></li>
-                                                <li><a href="#">Support</a></li>
-                                                <li><a href="#">Site Map</a></li>
-                                                <li><a href="#">Customer Service</a></li>
+                                                <li><a href="!#">Contact Us</a></li>
+                                                <li><a href="!#">Returns</a></li>
+                                                <li><a href="!#">Support</a></li>
+                                                <li><a href="!#">Site Map</a></li>
+                                                <li><a href="!#">Customer Service</a></li>
                                                 
                                             </ul>
                                         </div>
@@ -109,11 +110,11 @@ function Footer() {
                                         <h3 class="modtitle">My Account</h3>
                                         <div class="modcontent">
                                             <ul class="menu">
-                                                <li><a href="#">Brands</a></li>
-                                                <li><a href="#">Gift Certificates</a></li>
-                                                <li><a href="#">Affiliates</a></li>
-                                                <li><a href="#">Specials</a></li>
-                                                <li><a href="#">FAQs</a></li>
+                                                <li><a href="!#">Brands</a></li>
+                                                <li><a href="!#">Gift Certificates</a></li>
+                                                <li><a href="!#">Affiliates</a></li>
+                                                <li><a href="!#">Specials</a></li>
+                                                <li><a href="!#">FAQs</a></li>
                                                 
                                             </ul>
                                         </div>
@@ -130,7 +131,7 @@ function Footer() {
 
                             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-style">
                                 <div class="infos-footer">
-                                    <a href="#"><img src={process.env.PUBLIC_URL+'image/catalog/logo-footer.png'} alt="Noble-Pals logo"/></a>
+                                    <a href="!#"><img src={process.env.PUBLIC_URL+'image/catalog/logo-footer.png'} alt="Noble-Pals logo"/></a>
                                     <ul class="menu">
                                         <li class="adres">
                                             Kampala Uganada, Wakaliga Opposite Nguvu Coffee terrace
@@ -155,26 +156,26 @@ function Footer() {
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-style">
                                 <ul class="footer-links font-title">
                                     
-                                    <li><a href="#">New Arrivals</a></li>
-                                    <li><a href="#">Special Products</a></li>
-                                    <li><a href="#">Payments</a></li>
-                                    <li><a href="#">Returns</a></li>
-                                    <li><a href="#">Refunds</a></li>
-                                    <li><a href="#">Warantee</a></li>
-                                    <li><a href="#">Promotions</a></li>
-                                    <li><a href="#">Online Shopping</a></li>
-                                    <li><a href="#">Promotions</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Site Map</a></li>
-                                    <li><a href="#">Orders and Returns</a></li>
-                                    <li><a href="#">Help</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">Support</a></li>
-                                    <li><a href="#">Most Populars</a></li>
-                                    <li><a href="#">Customer Service</a></li>
-                                    <li><a href="#">Our Stores</a></li>
-                                    <li><a href="#">Discount</a></li>
-                                    <li><a href="#">Checkout</a></li>
+                                    <li><a href="!#">New Arrivals</a></li>
+                                    <li><a href="!#">Special Products</a></li>
+                                    <li><a href="!#">Payments</a></li>
+                                    <li><a href="!#">Returns</a></li>
+                                    <li><a href="!#">Refunds</a></li>
+                                    <li><a href="!#">Warantee</a></li>
+                                    <li><a href="!#">Promotions</a></li>
+                                    <li><a href="!#">Online Shopping</a></li>
+                                    <li><a href="!#">Promotions</a></li>
+                                    <li><a href="!#">Privacy Policy</a></li>
+                                    <li><a href="!#">Site Map</a></li>
+                                    <li><a href="!#">Orders and Returns</a></li>
+                                    <li><a href="!#">Help</a></li>
+                                    <li><a href="!#">Contact Us</a></li>
+                                    <li><a href="!#">Support</a></li>
+                                    <li><a href="!#">Most Populars</a></li>
+                                    <li><a href="!#">Customer Service</a></li>
+                                    <li><a href="!#">Our Stores</a></li>
+                                    <li><a href="!#">Discount</a></li>
+                                    <li><NavLink to="/checkout">Checkout</NavLink></li>
                                 </ul>
 
                             </div>
@@ -190,7 +191,7 @@ function Footer() {
                 <div class="footer-bottom ">
                     <div class="container">
                         <div class="copyright">
-                        noblemart. All Rights Reserved <a href="#" target="_blank">noblemart.Com</a>
+                        noblemart. All Rights Reserved <a href="!#" target="_blank">noblemart.Com</a>
                         </div>
                     </div>
                 </div>

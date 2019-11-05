@@ -8,8 +8,8 @@ class Category extends React.Component {
             <div className="common-category">
                 <div className="main-container container">
                     <ul className="breadcrumb">
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
-                        <li><a href="#">Smartphone & Tablets</a></li>
+                        <li><a href="!#"><i class="fa fa-home"></i></a></li>
+                        <li><a href="!#">Smartphone & Tablets</a></li>
                     </ul>
 
                     <div className="row">

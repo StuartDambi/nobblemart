@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 class Checkout extends React.Component {
     render() {
@@ -6,8 +7,8 @@ class Checkout extends React.Component {
             <div className="common-home">
                 <div className="main-container container">
                     <ul class="breadcrumb">
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
-                        <li><a href="#">Checkout</a></li>
+                        <li><NavLink to="/"><i class="fa fa-home"></i></NavLink></li>
+                        <li><NavLink to="/checkout">Checkout</NavLink></li>
                         
                     </ul>
 
@@ -294,7 +295,7 @@ class Checkout extends React.Component {
                                                     <br />
                                                     <label class="control-label" for="confirm_agree">
                                                     <input type="checkbox" checked="checked" value="1" required="" class="validate required" id="confirm_agree" name="confirm agree" />
-                                                    <span>I have read and agree to the <a class="agree" href="#"><b>Terms &amp; Conditions</b></a></span> </label>
+                                                    <span>I have read and agree to the <a class="agree" href="!#"><b>Terms &amp; Conditions</b></a></span> </label>
                                                     <div class="buttons">
                                                     <div class="pull-right">
                                                         <input type="button" class="btn btn-primary" id="button-confirm" value="Confirm Order" />

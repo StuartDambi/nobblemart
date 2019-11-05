@@ -7,9 +7,9 @@ class Wishlist extends React.Component {
             <div className="common-home">
                 <div className="main-container container">
                     <ul class="breadcrumb">
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
-                        <li><a href="#">Account</a></li>
-                        <li><a href="#">My Wish List</a></li>
+                        <li><a href="!#"><i class="fa fa-home"></i></a></li>
+                        <li><a href="!#">Account</a></li>
+                        <li><a href="!#">My Wish List</a></li>
                     </ul>
 
                     <div className="row">
@@ -47,12 +47,12 @@ class Wishlist extends React.Component {
                                                 onclick="cart.add('48');"
                                                 type="button" data-original-title="Add to Cart"><i class="fa fa-shopping-cart"></i>
                                                 </button>
-                                                <a class="btn btn-danger" title="" data-toggle="tooltip" href="#" data-original-title="Remove"><i class="fa fa-times"></i></a>
+                                                <a class="btn btn-danger" title="" data-toggle="tooltip" href="!#" data-original-title="Remove"><i class="fa fa-times"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">
-                                                <a href="product.html"><img width="70px" src="image/catalog/demo/product/80/1.jpg" alt="Xitefun Causal Wear Fancy Shoes" title="Xitefun Causal Wear Fancy Shoes" /></a>
+                                                <a href="!#"><img width="70px" src="image/catalog/demo/product/80/1.jpg" alt="Xitefun Causal Wear Fancy Shoes" title="Xitefun Causal Wear Fancy Shoes" /></a>
                                             </td>
                                             <td class="text-left"><a href="product.html">Comas samer rumas</a>
                                             </td>
@@ -68,7 +68,7 @@ class Wishlist extends React.Component {
                                                 data-original-title="Add to Cart"><i class="fa fa-shopping-cart"></i>
                                                 </button>
                                                 <a class="btn btn-danger" title="" data-toggle="tooltip"
-                                                href="#" data-original-title="Remove"><i class="fa fa-times"></i>
+                                                href="!#" data-original-title="Remove"><i class="fa fa-times"></i>
                                                 </a>
                                             </td>
                                         </tr>

@@ -7,8 +7,8 @@ class GiftVoucher extends React.Component {
             <div className="common-home">
                 <div className="main-container container">
                     <ul className="breadcrumb">
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
-			            <li><a href="#">Gift Voucher</a></li>
+                        <li><a href="!#"><i class="fa fa-home"></i></a></li>
+			            <li><a href="!#">Gift Voucher</a></li>
                     </ul>
 
                     <div className="row">

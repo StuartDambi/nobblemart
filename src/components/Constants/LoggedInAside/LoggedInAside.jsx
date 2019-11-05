@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export default function LoggedInAside() {
     return (
@@ -6,31 +7,31 @@ export default function LoggedInAside() {
             <h2 class="subtitle">Account</h2>
             <div class="list-group">
                 <ul class="list-item">
-                    <li><a href="login.html">Login</a>
+                    <li><NavLink to="/login">Login</NavLink>
                     </li>
-                    <li><a href="register.html">Register</a>
+                    <li><NavLink to="register">Register</NavLink>
                     </li>
-                    <li><a href="#">Forgotten Password</a>
+                    <li><NavLink to="!#">Forgotten Password</NavLink>
                     </li>
-                    <li><a href="#">My Account</a>
+                    <li><NavLink to="/account">My Account</NavLink>
                     </li>
-                    <li><a href="#">Address Books</a>
+                    <li><a href="!#">Address Books</a>
                     </li>
-                    <li><a href="wishlist.html">Wish List</a>
+                    <li><NavLink to="/wishlist">Wish List</NavLink>
                     </li>
-                    <li><a href="#">Order History</a>
+                    <li><NavLink to="/orders">Order History</NavLink>
                     </li>
-                    <li><a href="#">Downloads</a>
+                    <li><a href="!#">Downloads</a>
                     </li>
-                    <li><a href="#">Reward Points</a>
+                    <li><a href="!#">Reward Points</a>
                     </li>
-                    <li><a href="#">Returns</a>
+                    <li><NavLink to="/returns">Returns</NavLink>
                     </li>
-                    <li><a href="#">Transactions</a>
+                    <li><a href="!#">Transactions</a>
                     </li>
-                    <li><a href="#">Newsletter</a>
+                    <li><a href="!#">Newsletter</a>
                     </li>
-                    <li><a href="#">Recurring payments</a>
+                    <li><a href="!#">Recurring payments</a>
                     </li>
                 </ul>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 class Compare extends React.Component {
     render() {
@@ -6,8 +7,8 @@ class Compare extends React.Component {
             <div className="common-home">
                 <div className="main-container container">
                     <ul class="breadcrumb">
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
-                        <li><a href="#">Product Comparison</a></li>
+                        <li><NavLink to="/"><i class="fa fa-home"></i></NavLink></li>
+                        <li><NavLink to="/compare">Product Comparison</NavLink></li>
                         
                     </ul>
 
@@ -160,11 +161,11 @@ class Compare extends React.Component {
                                         <tr>
                                         <td></td>
                                         <td><input type="button" onClick="" class="btn btn-primary btn-block" value="Add to Cart" />
-                                            <a class="btn btn-danger btn-block" href="#">Remove</a></td>
+                                            <a class="btn btn-danger btn-block" href="!#">Remove</a></td>
                                         <td><input type="button" onClick="" class="btn btn-primary btn-block" value="Add to Cart" />
-                                            <a class="btn btn-danger btn-block" href="#">Remove</a></td>
+                                            <a class="btn btn-danger btn-block" href="!#">Remove</a></td>
                                         <td><input type="button" onClick="" class="btn btn-primary btn-block" value="Add to Cart" />
-                                            <a class="btn btn-danger btn-block" href="#">Remove</a></td>
+                                            <a class="btn btn-danger btn-block" href="!#">Remove</a></td>
                                         </tr>
                                     </tbody>
                                 </table>

@@ -7,8 +7,8 @@ class ProductReturns extends React.Component {
             <div className="common-home">
                 <div className="main-container container">
                     <ul className="breadcrumb">
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
-			            <li><a href="#">Return</a></li>
+                        <li><a href="!#"><i class="fa fa-home"></i></a></li>
+			            <li><a href="!#">Return</a></li>
                     </ul>
 
                     <div className="row">
@@ -125,7 +125,7 @@ class ProductReturns extends React.Component {
                                 </fieldset>
 
                                 <div class="buttons clearfix">
-                                    <div class="pull-left"><a class="btn btn-default buttonGray" href="#">Back</a>
+                                    <div class="pull-left"><a class="btn btn-default buttonGray" href="!#">Back</a>
                                     </div>
                                     <div class="pull-right">
                                         <input type="submit" class="btn btn-primary" value="Submit" />

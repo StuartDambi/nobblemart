@@ -93,7 +93,7 @@ class DailyDeals extends React.Component {
 
                                             <div className="item-right col-lg-6 col-md-7 col-sm-7 col-xs-12">
                                                 <div className="caption">
-                                                    <h4><a href="#" target="_self" title="Xancetta bresao">Xancetta bresao</a></h4>
+                                                    <h4><a href="!#" target="_self" title="Xancetta bresao">Xancetta bresao</a></h4>
                                                     <p className="price">
                                                         <span className="price-new">$80.00</span>
                                                         <span className="price-old">$90.00</span>
@@ -149,7 +149,7 @@ class DailyDeals extends React.Component {
 
                                             <div className="item-right col-lg-6 col-md-7 col-sm-7 col-xs-12">
                                                 <div className="caption">
-                                                    <h4><a href="#" target="_self" title="Xancetta bresao">Xancetta bresao</a></h4>
+                                                    <h4><a href="!#" target="_self" title="Xancetta bresao">Xancetta bresao</a></h4>
                                                     <p className="price">
                                                         <span className="price-new">$80.00</span>
                                                         <span className="price-old">$90.00</span>
@@ -205,7 +205,7 @@ class DailyDeals extends React.Component {
 
                                             <div className="item-right col-lg-6 col-md-7 col-sm-7 col-xs-12">
                                                 <div className="caption">
-                                                    <h4><a href="#" target="_self" title="Xancetta bresao">Xancetta bresao</a></h4>
+                                                    <h4><a href="!#" target="_self" title="Xancetta bresao">Xancetta bresao</a></h4>
                                                     <p className="price">
                                                         <span className="price-new">$80.00</span>
                                                         <span className="price-old">$90.00</span>

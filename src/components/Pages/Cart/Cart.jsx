@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 class ShoppingCart extends React.Component {
     render() {
@@ -6,8 +7,8 @@ class ShoppingCart extends React.Component {
             <div className="common-home">
                 <div className="main-container container">
                     <ul class="breadcrumb">
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
-                        <li><a href="#">Shopping Cart</a></li>
+                        <li><NavLink to="/"><i class="fa fa-home"></i></NavLink></li>
+                        <li><NavLink to="/cart">Shopping Cart</NavLink></li>
                     </ul>
 
                     <div className="row">

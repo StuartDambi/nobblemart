@@ -120,7 +120,7 @@ class LatestProducts extends React.Component {
                                 <div class="module">
                                     <div class="banners banners4">
                                         <div class="banner">
-                                            <a href="#"><img src={process.env.PUBLIC_URL+'image/catalog/banners/banner5.jpg'} alt="noble" /></a>
+                                            <a href="!#"><img src={process.env.PUBLIC_URL+'image/catalog/banners/banner5.jpg'} alt="noble" /></a>
                                         </div>
                                     </div>
                                 </div>

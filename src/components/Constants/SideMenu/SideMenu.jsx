@@ -179,7 +179,7 @@ export default function SideMenu() {
                                             <div class="inner">
                                                 <i class="fa fa-file-text-o"></i>
                                                 <div class="info-cont">
-                                                    <a href="#">free delivery</a>
+                                                    <a href="!#">free delivery</a>
                                                     <p>On order over 500,000</p>
                                                 </div>
                                             </div>
@@ -188,7 +188,7 @@ export default function SideMenu() {
                                             <div class="inner">
                                                 <i class="fa fa-shield"></i>
                                                 <div class="info-cont">
-                                                    <a href="#">order protecttion</a>
+                                                    <a href="!#">order protecttion</a>
                                                     <p>secured information</p>
                                                 </div>
                                             </div>
@@ -197,7 +197,7 @@ export default function SideMenu() {
                                             <div class="inner">
                                                 <i class="fa fa-gift"></i>
                                                 <div class="info-cont">
-                                                    <a href="#">promotion gift</a>
+                                                    <a href="!#">promotion gift</a>
                                                     <p>special offers!</p>
                                                 </div>
                                             </div>
@@ -206,7 +206,7 @@ export default function SideMenu() {
                                             <div class="inner">
                                                 <i class="fa fa-money"></i>
                                                 <div class="info-cont">
-                                                    <a href="#">money back</a>
+                                                    <a href="!#">money back</a>
                                                     <p>return over 15 days</p>
                                                 </div>
                                             </div>
@@ -217,7 +217,7 @@ export default function SideMenu() {
                                 <div class="module">
                                     <div class="banners banners4">
                                         <div class="banner">
-                                            <a href="#"><img src={process.env.PUBLIC_URL+'image/catalog/banners/banner5.jpg'} alt="noble" /></a>
+                                            <a href="!#"><img src={process.env.PUBLIC_URL+'image/catalog/banners/banner5.jpg'} alt="noble" /></a>
                                         </div>
                                     </div>
                                 </div>
