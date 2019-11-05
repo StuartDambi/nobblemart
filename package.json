@@ -1,10 +1,15 @@
 {
+<<<<<<< HEAD
   "name": "mynobble",
+=======
+  "name": "nobleapp",
+>>>>>>> 5907d000c88cccae9cb38eae57f4ca0eef88ff18
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+<<<<<<< HEAD
     "react-scripts": "3.2.0"
   },
   "scripts": {
@@ -27,5 +32,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "0.9.5",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+>>>>>>> 5907d000c88cccae9cb38eae57f4ca0eef88ff18
   }
 }
