@@ -77,7 +77,7 @@ class Header extends React.Component {
                                                         <div class="container-mega">
                                                             <ul class="megamenu" data-transition="slide" data-animationtime="250">
                                                                 <li class="home hover">
-                                                                    <a href="index.html"><b>Home</b></a>
+                                                                    <NavLink to="/"><b>Home</b></NavLink>
                                                                     
                                                                 </li>
 
@@ -123,13 +123,13 @@ class Header extends React.Component {
                                                                                         <a href="#" class="title-submenu">My Account pages</a>
                                                                                         <div>
                                                                                             <ul class="row-list">
-                                                                                                <li><a href="/login">Login Page</a></li>
-                                                                                                <li><a href="register.html">Register Page</a></li>
-                                                                                                <li><a href="my-account.html">My Account</a></li>
-                                                                                                <li><a href="order-history.html">Order History</a></li>
-                                                                                                <li><a href="order-information.html">Order Information</a></li>
-                                                                                                <li><a href="return.html">Product Returns</a></li>
-                                                                                                <li><a href="gift-voucher.html">Gift Voucher</a></li>
+                                                                                                <li><NavLink to="/login">Login Page</NavLink></li>
+                                                                                                <li><NavLink to="register">Register Page</NavLink></li>
+                                                                                                <li><NavLink to="account">My Account</NavLink></li>
+                                                                                                <li><NavLink to="orders">Order History</NavLink></li>
+                                                                                                <li><NavLink to="orders">Order Information</NavLink></li>
+                                                                                                <li><NavLink to="returns">Product Returns</NavLink></li>
+                                                                                                <li><NavLink to="giftvoucher">Gift Voucher</NavLink></li>
                                                                                             </ul>
                                                                                         </div>
                                                                                     </div>
