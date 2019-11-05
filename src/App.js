@@ -1,17 +1,21 @@
 import React, { Component } from 'react'
-import Header from './components/Constants/Header/Header'
-import { Router, Route, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import BaseLayout from './components/BaseLayout/BaseLayout'
 import Home from './components/Pages/Home/Home'
+import Categories from './components/Pages/Categories/Categories'
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
-        <Home />
-        
-      </div>
+      <BrowserRouter>
+        <BaseLayout>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/categories" component={Categories} />
+          </Switch>
+        </BaseLayout>
+      </BrowserRouter>
     )
   }
 }

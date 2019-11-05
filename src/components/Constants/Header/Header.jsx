@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 class Header extends React.Component {
     render() {
@@ -13,10 +13,10 @@ class Header extends React.Component {
                                     <div class="hidden-sm hidden-xs welcome-msg"><b>Welcome to Noblemart!</b></div>
                                     <ul class="top-link list-inline hidden-lg hidden-md">
                                         <li class="account" id="my_account">
-                                            <a href="#" title="My Account " class="btn-xs dropdown-toggle" data-toggle="dropdown"> <span class="hidden-xs">My Account </span>  <span class="fa fa-caret-down"></span>
+                                            <a href="!#" title="My Account " class="btn-xs dropdown-toggle" data-toggle="dropdown"> <span class="hidden-xs">My Account </span>  <span class="fa fa-caret-down"></span>
                                             </a>
                                             <ul class="dropdown-menu ">
-                                                <li><a href="!#"><i class="fa fa-user"></i> Register</a></li>
+                                                <li><NavLink to="/categories"><i class="fa fa-user"></i> Register</NavLink></li>
                                                 <li><a href="/login"><i class="fa fa-pencil-square-o"></i> Login</a></li>
                                             </ul>
                                         </li>
@@ -31,11 +31,11 @@ class Header extends React.Component {
                                                         <span class="icon icon-credit "></span> $ US Dollar  <span class="fa fa-angle-down"></span>
                                                     </a>
                                                     <ul class="dropdown-menu btn-xs">
-                                                        <li> <a href="#">(€)&nbsp;bitcoin</a></li>
-                                                        <li> <a href="#">(£)&nbsp;Ethereum</a></li>
-                                                        <li> <a href="#">(£)&nbsp;bitcoin cash</a></li>
-                                                        <li> <a href="#">(£)&nbsp;litecoin</a></li>
-                                                        <li> <a href="#">($)&nbsp;US Dollar </a></li>
+                                                        <li> <a href="!#">(€)&nbsp;bitcoin</a></li>
+                                                        <li> <a href="!#">(£)&nbsp;Ethereum</a></li>
+                                                        <li> <a href="!#">(£)&nbsp;bitcoin cash</a></li>
+                                                        <li> <a href="!#">(£)&nbsp;litecoin</a></li>
+                                                        <li> <a href="!#">($)&nbsp;US Dollar </a></li>
                                                     </ul>
                                                 </form>
                                             </div>
@@ -98,7 +98,7 @@ class Header extends React.Component {
                                                                                         <div>
                                                                                             <ul class="row-list">
                                                                                                 <li><a href="product.html">Products</a></li>
-                                                                                                <li><a href="category.html">Category </a></li>
+                                                                                                <li><a href={'/categories'}>Category </a></li>
                                                                                             
                                                                                             </ul>
                                                                                         </div>
@@ -148,12 +148,12 @@ class Header extends React.Component {
                                                                 </li>
                                                                 <li class="with-sub-menu hover">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" class="clearfix">
+                                                                    <NavLink to="/categories" class="clearfix">
                                                                         <strong>Categories</strong>
                                                                         <img class="label-hot" src="image/catalog/menu/hot-icon.png" alt="icon items" />
                                                             
                                                                         <b class="caret"></b>
-                                                                    </a>
+                                                                    </NavLink>
                                                                     <div class="sub-menu" style={{width: '100%', display: 'none'}} >
                                                                         <div class="content">
                                                                             <div class="row">
@@ -247,13 +247,6 @@ class Header extends React.Component {
                                                                     </a>
                                                         
                                                                 </li>
-                                                                <li class="">
-                                                                    <p class="close-menu"></p>
-                                                                    <a href="blog-page.html" class="clearfix">
-                                                                        <strong>Blog</strong>
-                                                                        <span class="label"></span>
-                                                                    </a>
-                                                                </li>
                                                                 
                                                                 
                                                             </ul>
@@ -269,7 +262,7 @@ class Header extends React.Component {
                                 <div class="middle-right col-lg-4 col-md-3 col-sm-6 col-xs-8">                  
                                     <div class="signin-w  hidden-sm hidden-xs">
                                         <ul class="signin-link blank">                            
-                                            <li class="log login"><i class="fa fa-lock"></i> <a class="link-lg" href="login.html">Login </a> or <a href="register.html">Register</a></li>                                
+                                            <li class="log login"><i class="fa fa-lock"></i> <a class="link-lg" href="login.html">Login </a> or <NavLink to="/categories">Register</NavLink></li>                                
                                         </ul>                       
                                     </div>
                                     <div class="telephone hidden-xs hidden-sm hidden-md">
